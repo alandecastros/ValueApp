@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValueApp.Api", "ValueApp.Api\ValueApp.Api.csproj", "{FAA8C749-673B-4A70-8971-8AD84B93EF7A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Domain", "0 - Domain", "{4664EA95-53CF-4029-ACEA-5DFCFEE3D8A8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Infra", "1 - Infra", "{9A3BF05B-2964-43CB-9279-5514A782C74C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValueApp.Domain", "ValueApp.Domain\ValueApp.Domain.csproj", "{6AA57CE8-2161-4CFD-AAFA-EFCBE8077A1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValueApp.Infra", "ValueApp.Infra\ValueApp.Infra.csproj", "{060CECE6-200A-437A-9609-670B18059F14}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{28C35B1F-1761-4516-97C0-2D06E788C13A}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+		.github\workflows\azure-function-build-deploy.yml = .github\workflows\azure-function-build-deploy.yml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValueApp.IntegrationTests", "ValueApp.IntegrationTests\ValueApp.IntegrationTests.csproj", "{D5404821-364B-4A7E-AEFB-B4708F77CEF4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FAA8C749-673B-4A70-8971-8AD84B93EF7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAA8C749-673B-4A70-8971-8AD84B93EF7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAA8C749-673B-4A70-8971-8AD84B93EF7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAA8C749-673B-4A70-8971-8AD84B93EF7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AA57CE8-2161-4CFD-AAFA-EFCBE8077A1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AA57CE8-2161-4CFD-AAFA-EFCBE8077A1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AA57CE8-2161-4CFD-AAFA-EFCBE8077A1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AA57CE8-2161-4CFD-AAFA-EFCBE8077A1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{060CECE6-200A-437A-9609-670B18059F14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{060CECE6-200A-437A-9609-670B18059F14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{060CECE6-200A-437A-9609-670B18059F14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{060CECE6-200A-437A-9609-670B18059F14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5404821-364B-4A7E-AEFB-B4708F77CEF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5404821-364B-4A7E-AEFB-B4708F77CEF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5404821-364B-4A7E-AEFB-B4708F77CEF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5404821-364B-4A7E-AEFB-B4708F77CEF4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6AA57CE8-2161-4CFD-AAFA-EFCBE8077A1B} = {4664EA95-53CF-4029-ACEA-5DFCFEE3D8A8}
+		{060CECE6-200A-437A-9609-670B18059F14} = {9A3BF05B-2964-43CB-9279-5514A782C74C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {494AB654-02E5-4468-AD73-4992DD2D3613}
+	EndGlobalSection
+EndGlobal
